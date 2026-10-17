@@ -1,0 +1,116 @@
+/* =====================================================================
+   custom-markdown-v2.css
+   Estilos para imprimir a PDF los materiales del kit de gelatina.
+
+   Base: la plantilla del usuario
+         g:\Mi unidad\0-Docencia\custom-markdown.css
+   Versión reordenada y depurada: sin reglas duplicadas y sin comentarios
+   largos. El archivo original no se tocó.
+
+   Qué agrega sobre la plantilla original, que no define nada de esto:
+     - tamaño de página y cuerpo de impresión
+     - tablas con borde: sin esto la rúbrica, la carta de precios y las
+       planillas de registro no se leen impresas
+     - fuente con emoji al frente (ver nota en body)
+     - control de cortes de página
+   ===================================================================== */
+
+/* wkhtmltopdf ignora @page (probado: con y sin margin acá, el PDF sale byte a
+   byte idéntico), así que esta regla es para las demás herramientas: si la
+   plantilla se usa en un navegador, el margen impreso es este. Tiene que
+   coincidir con los flags de generar-pdf.ps1, que son los que mandan cuando se
+   genera con el script. */
+@page { size: A4; margin: 2.5cm; }
+
+body {
+  /* "Segoe UI Emoji" va PRIMERO, no como último recurso: wkhtmltopdf
+     (QtWebKit) no busca el glifo en la familia siguiente, imprime un
+     cuadradito vacío. Esta familia cubre los emoji y además los acentos y la
+     ñ. Es el único punto de la cadena que depende del sistema operativo. */
+  font-family: "Segoe UI Emoji", Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+  /* Sin márgenes acá: todos los márgenes de página los pone generar-pdf.ps1.
+     Se probó que el margin de body no sirve para esto: el horizontal lo aplica
+     escalado (~0.794, o sea que el número declarado no es el impreso) y el
+     vertical lo ignora por completo (margin-top 0cm y 4cm dan la misma primera
+     línea). Los flags del script, en cambio, salen 1:1. */
+  margin: 0;
+}
+
+h1 {
+  color: #1a5276;
+  font-size: 20pt;
+  font-weight: bold;
+  border-bottom: 2px solid #1a5276;
+  padding-bottom: 4px;
+  margin: 0.3em 0 1em;
+}
+
+h2 {
+  color: #1a5276;
+  font-size: 1.7em;
+  font-weight: bold;
+  border-bottom: 2px solid #aeb6bf;
+  padding-bottom: 0.4em;
+  margin: 2.5em 0 1em;
+}
+
+h3 {
+  color: #2874a6;
+  font-size: 1.4em;
+  font-weight: bold;
+  border-bottom: 1px solid #d0d3d4;
+  padding-bottom: 0.3em;
+  margin: 2em 0 0.8em;
+}
+
+h4 {
+  color: #34495e;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 1.5em 0 0.5em;
+}
+
+a { color: #007bff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+:not(pre):not(.hljs) > code {
+  color: #333333;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 10pt;
+}
+
+th, td {
+  border: 1px solid #aab7b8;
+  padding: 5px 7px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th { background: #d6eaf8; }
+
+blockquote {
+  border-left: 4px solid #f39c12;
+  background: #fef9e7;
+  margin: 10px 0;
+  padding: 6px 12px;
+}
+
+ul, ol { margin: 6px 0; }
+li { margin: 2px 0; }
+
+/* Que ningún título quede solo al pie de página ni se parta al medio una fila
+   de tabla, un ítem de lista o una cita. */
+h1, h2, h3, h4 { page-break-after: avoid; }
+tr, li, blockquote { page-break-inside: avoid; }
