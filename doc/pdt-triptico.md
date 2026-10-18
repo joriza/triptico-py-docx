@@ -18,7 +18,14 @@ Nuevo estandard para los margenes, lado lomo 1.5cm, lado externo 1.0cm, en docum
 Coloque en el margen inferior interno la fecha en formato ISO-8601, solo la fecha sin la hora.
 respalde los actuales y regenere con los nuevos margenes.
 
----
 
 Colocar en la plantilla indicaciones y los datos que deben ser inline en la generacion de pdf
 necesito analizar y encontrar una forma de tener la plantilla y la forma de generar pdf de una forma unificada, para que apartir de ese momento los pdf se generen de forma uniforme. Sino dependo de que plantilla tenga cada proyecto y de que forma se generaban los pdf al momento de armar el contenido para la clae.
+
+---
+
+vamos al contenido del triptico. 
+El contenido sigue siendo un emprendimiento para vender gelatina casera.
+Se trata de crear gelatina desde la materia prima, no solo preparar el polvo que se compra en la tienda.
+Ademas debe incluir un poco de historia sobre la historia de la gelatina y sus variaciones en los procesos de creacion.
+deme un ejemplo terminado del triptico en formato pdf realizado en una hoja Formto A4 apaisado
