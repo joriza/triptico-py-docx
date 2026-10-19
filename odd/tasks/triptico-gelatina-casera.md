@@ -56,6 +56,7 @@
 - [x] T16. Pipeline global: lector markdown sin TeX math (`-tex_math_dollars`, S23) + `-h`/`-Ayuda` con resumen de uso (S24) + receta de regeneración del tríptico registrada tras el incidente de regeneración con defaults. · Route: inline · S23, S24 · **hecho: ver L29**
 - [x] T17. Estándar de densidad: títulos h2/h3/h4 compactos (S25) + margen vertical 1,2 cm (S26), prototipados en carpeta aislada con medición de hojas y renders antes/después, aplicados al pipeline global y regenerados kit (29 hojas, determinista) y AUAG (clase-4 pendiente por visor). · Route: inline · S25, S26, S27 · **hecho: ver L30**
 - [x] T18. Profundización del estándar: títulos al máximo seguro (S25: 0,9/0,8/0,7em) + evaluación medida de otras palancas de papel (L31): vertical 1,0 (descartada, +0 hojas), interlineado 1,25 (descartada, ±0 sola), celdas 3px (marginal, no aplicada). · Route: inline · S25 · **hecho: ver L31**
+- [x] T19. Defecto de corte: `<li>` con tabla anidada saltaba entero dejando huecos enormes; diagnóstico por contraevidencia en sandbox (culpable: `li { break-inside: avoid }` + tratamiento conservador de Blink) y fix quirúrgico `li:has(table) { break-inside: auto }` aplicado al estándar; kit y AUAG regenerados y verificados. · Route: inline · **hecho: ver L32**
 
 ## Log
 
@@ -250,11 +251,18 @@ Nota. Si el texto tiene muchas tablas como en este caso es medio confuso leer, p
   - **Verificación:** kit 5/5 `-Verify` deterministas (29 hojas; el ajuste no cruza umbral ahí) + tríptico con receta; AUAG **10/10 deterministas, 47 hojas** (L30 con clase-4 vieja: 48; original: 55). clase-4 se pudo regenerar: el usuario había cerrado el visor.
   - **Honestidad contable:** una primera suma de la sandbox duplicó la resta de pdt y hizo parecer que el ajuste ahorra 2 hojas más; corregido antes de registrar. Ganancia real de esta profundización: densidad por página en todos los documentos y ~1 hoja en AUAG; el grueso del ahorro ya lo había tomado L30.
 
+- **L32 (2026-10-18) — defecto de corte: ítems de lista con tabla anidada saltaban enteros (reporte del usuario).**
+  - **Reporte:** *"por que se produce el salto en la pagina 5… si no era necesario, hay mas texto antes del cuadro"* (clase-4 de AUAG).
+  - **Diagnóstico:** la página 5 quedaba con **19,5 cm de blanco**; el cuadro de clientes está anidado dentro del ítem 2 de la lista (`<li><p>Cargar…</p><table>…</table></li>`, 10 filas ≈ 8,4 cm) y `li { break-inside: avoid }` + el tratamiento conservador de Blink para cajas con tabla lo empujaron entero, aunque el hueco era el doble. Contraevidencia en sandbox: quitando `li` de la regla, blanco 19,5 → 0,6 cm y el documento baja de 8 a 7 páginas.
+  - **Fix estándar (quirúrgico):** `li:has(table) { page-break-inside: auto; break-inside: auto; }` — los ítems con tabla fluyen; si la tabla corta, es entre filas enteras y con encabezados repetidos; los ítems de texto siguen sin cortarse. Ver Hallazgos.
+  - **Verificación:** kit 5/5 `-Verify` deterministas y el tríptico con receta dio el MISMO sha que en L31 (15DB0478DBEFE280): la regla no lo afecta, como corresponde. AUAG 10/10 deterministas, **46 hojas** (−1 vs L31; −9 vs el original de 55) y **peor blanco a mitad de documento en todo el carpetón: 2,6 cm** (antes: 19,5).
+
 ## Hallazgos (medidos, para no re-deducirlos)
 
 > Los hallazgos de esta sección describen el **pipeline viejo (wkhtmltopdf)**, que es el que produjo los PDF respaldados, salvo los que dicen explícitamente lo contrario (los que comparan motores). El vigente es Chrome: ver S16, S17 y L20.
 
 - **Pandoc come pares de `$` (tex_math_dollars, 2026-10-18):** en el lector de markdown, dos `$` en texto plano abren/cierran fórmula TeX; si texmath no puede parsear el tramo, lo escupe crudo y arrastra pipes y backticks de tablas. Desactivado en el pipeline desde el mismo día (S23). Los `$` sueltos o dentro de code spans nunca fueron problema.
+- **Blink empuja enteros los `<li>` que contienen tablas (2026-10-18):** con `li { break-inside: avoid }`, un ítem de lista con tabla anidada salta completo a la página siguiente AUNQUE quepa con holgura en la actual (medido: hueco de 19,5 cm por un bloque de 8,4 cm, clase-4 de AUAG). No es aritmética de altura: es tratamiento conservador de cajas con tabla anidada. Fix estándar: `li:has(table) { break-inside: auto }` — el ítem fluye; si la tabla corta, es entre filas enteras (`tr` sigue protegido) y Chrome repite los encabezados de columna. Los ítems de texto conservan su protección. Verificado por contraevidencia: sin la exención, 19,5 cm de blanco; con ella, 0,6 cm y el documento baja de 8 a 7 páginas.
 
 - **Tipografía impresa:** cuerpo (declarado 11 pt) → **12,0 pt**; texto de tabla (declarado 10 pt) → **10,2 pt**.
 - **Geometría:** todos los márgenes de página salen de los flags de `generar-pdf.ps1`, **1:1**. El `margin` del `body` no sirve para esto (horizontal escalado ~0,796, vertical ignorado) y además **se suma** al flag: con 2,5 cm de cada lado da 4,48 cm impresos y +1 hoja.
