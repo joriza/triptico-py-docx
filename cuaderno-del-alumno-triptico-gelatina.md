@@ -1,10 +1,10 @@
 # Cuaderno del Alumno: Tu Tríptico para un Emprendimiento de Gelatina
 
-> ¡Bienvenido/a! En este cuaderno vas a encontrar todo lo que necesitás para crear un **tríptico**: ese folleto que se dobla en tres, se reparte en mano y queda en la casa de la gente. Vas a armar uno para promocionar un **emprendimiento casero de gelatina** —el tuyo, el de tu familia o uno que vas a inventar— y lo vas a usar como herramienta real de venta. Todo se hace con tu celular y una hoja de papel.
+> ¡Bienvenido/a! En este cuaderno vas a encontrar todo lo que necesitás para crear un **tríptico**: ese folleto que se dobla en tres, se reparte en mano y queda en la casa de la gente. Vas a armar uno para promocionar un **emprendimiento casero de gelatina** —el tuyo, el de tu familia o uno que vas a inventar— y lo vas a usar como herramienta real de venta. El armado se hace **en la computadora con Word 2010**; la maqueta previa, con una hoja de papel.
 
 **Tu curso:** 4 encuentros con tu profesor/a y tus compañeros.
 **Cómo funciona el taller:** primero el/la profe explica → después practicamos → al final vos entregás tu tríptico impreso y doblado.
-**Tu celular es tu herramienta principal:** no hay computadoras en el aula. Todo se hace con el celular… y con una hoja A4, lápiz y regla, que no son opcionales.
+**La computadora con Word 2010 es tu herramienta de armado:** vas a partir del modelo `triptico-dulce-casero.docx` que te da el docente y reemplazar sus textos por los tuyos. El celular queda para el relevamiento: entrevistas y fotos, que después pasás a la computadora (cable USB, correo o pendrive). Y una hoja A4, lápiz y regla, que no son opcionales.
 **El tema de todo el taller:** un emprendimiento casero de gelatina: sabores, precios, encargos y entrega en el barrio.
 **Producto final:** un tríptico impreso, doblado y entregado, listo para que un cliente lo lea solo, sin que vos le expliques nada.
 
@@ -18,7 +18,7 @@ En estas 4 clases vas a aprender a:
 - 🔍 **Relevar** información real: entrevistas, costos, precios de la competencia y fotos del producto.
 - 🧱 **Organizar** el contenido en los 6 paneles y decidir qué va en cada uno.
 - 🎨 **Diseñar** paneles que se lean bien en papel: jerarquía, contraste, tipografía y márgenes.
-- 📱 **Armar** el tríptico en Canva desde tu celular y exportarlo listo para imprimir.
+- 💻 **Armar** el tríptico en Word 2010 y generar el PDF listo para imprimir.
 - 🧪 **Probar** tu tríptico con lectores reales y corregir lo que no se entiende.
 - 📣 **Entregar** el tríptico impreso y doblado, y difundir la versión digital.
 
@@ -34,7 +34,7 @@ Un emprendimiento casero de gelatina es el mejor ejemplo para practicar: es un p
 | --- | --- |
 | 1 | Presentación del taller + Paso 1 (objetivo y público) + lanzamiento del relevamiento |
 | 2 | Paso 2 (organizar la información) + Paso 3 (maqueta en papel de los 6 paneles) |
-| 3 | Paso 4 (diseño) + Paso 5 (armado en Canva desde el celular) |
+| 3 | Paso 4 (diseño) + Paso 5 (armado en Word 2010) |
 | 4 | Paso 6 (test de lectura y ajustes) + Paso 7 (impresión, entrega y cierre) |
 
 ---
@@ -74,7 +74,7 @@ Un emprendimiento casero de gelatina es el mejor ejemplo para practicar: es un p
 
 ### Paso 2: Relevá la información
 
-Un tríptico no se inventa: se arma con datos. Acá tenés tres fuentes que podés conseguir sin computadora.
+Un tríptico no se inventa: se arma con datos. Acá tenés cuatro fuentes, y todas se consiguen en el barrio, con el celular o con lápiz y papel:
 
 1. **Entrevistá a clientes reales (5 personas).** Preguntale a familiares, vecinos o compañeros. Las respuestas te van a decir **qué es lo que la gente quiere saber** —que casi nunca es lo que vos querés contar—.
 2. **Calculá tu costo y tu precio.** Nadie compra una gelatina sin saber cuánto sale. Anotá los ingredientes, cuánto gastás por receta y cuánto vas a cobrar.
@@ -156,43 +156,42 @@ Un tríptico no es una diapositiva: se lee de cerca, en la mano, y muchas veces 
 
 ---
 
-### Paso 5: Armá el tríptico en tu celular
+### Paso 5: Armá el tríptico en la computadora
 
-#### 🛠️ Tutorial: creá tu tríptico en Canva desde el celular
+#### 🛠️ Tutorial: creá tu tríptico en Word 2010
 
 Seguí estos pasos en orden:
 
-1. **Instalá y abrí la app:** buscá "Canva" en Google Play (Android) o App Store (iPhone). Si preferís no instalar nada, entrá a `canva.com` desde el navegador del celular.
-2. **Iniciá sesión o creá tu cuenta.** Si no tenés cuenta, consultá con tu docente: se puede crear con un correo o con una cuenta de Google.
-3. **Creá un diseño nuevo:** tocá el botón **"+"** y elegí **"Tríptico"** (o buscá "tríptico" en el buscador de plantillas). Canva te va a ofrecer plantillas de tres paneles; elegí una simple y con buen contraste.
-4. **Elegí una plantilla:** no arranques de una hoja en blanco. La plantilla ya tiene resuelto el doblez y el orden de los paneles. Tocá una y después **"Usar esta plantilla"**.
-5. **Cargá el contenido panel por panel, con tu mapa en papel al lado.** Tocá el texto del panel, borralo y escribí el tuyo. No improvises sobre la pantalla: copiá de tu mapa.
-6. **Insertá las fotos:** tocá el botón **"+"** → **"Fotos"** → **"Subir"** o **"Galería"** y elegí las fotos del producto que sacaste en el Paso 2.
-7. **Ajustá el tamaño de la letra:** tocá el texto → **"Tamaño"**. Revisá que el cuerpo no baje de 11 puntos y los títulos sean grandes.
-8. **Revisá que la letra se lea al imprimir:** en el celular todo se ve más grande. Hacé una **vista previa** y achicá el zoom hasta ver la hoja casi del tamaño de una hoja real: si no se entiende así, en papel mucho menos.
-9. **Cargá los datos de contacto y el código QR** en la contratapa (ver el Anexo de este cuaderno para generar el QR de tu WhatsApp).
-10. **Revisá la ortografía dos veces.** Un error impreso se reproduce en cada copia y no se puede borrar. Leé tu tríptico en voz alta: el oído encuentra errores que el ojo no ve.
-11. **Exportá el PDF:** tocá **"Compartir"** → **"Descargar"** → formato **PDF para impresión**. Guardalo con un nombre claro: `triptico-nombre-del-emprendimiento.pdf`.
-12. **Guardá una copia en Google Drive o en tu galería.** Si el archivo se pierde, perdés el trabajo.
+1. **Abrí el modelo:** en la computadora, abrí con Word el archivo `triptico-dulce-casero.docx` que te da el docente. Ya está armado como tríptico: hoja A4 apaisada, dos caras y cada cara dividida en tres paneles.
+2. **Guardalo enseguida con tu nombre:** menú **Archivo → Guardar como** y ponéle `triptico-mi-emprendimiento.docx`. Así el modelo queda intacto y vos trabajás sobre tu propia copia.
+3. **Reconocé la estructura:** la **página 1** es la cara externa (solapa, contratapa y portada) y la **página 2** es la interna (interior 1, 2 y 3). Los paneles son las **celdas de una tabla**: hacés clic adentro y escribís. Las líneas grises punteadas marcan el pliegue: son guías de trabajo.
+4. **Cargá el contenido panel por panel, con tu mapa en papel al lado.** Seleccioná el texto de ejemplo, borralo y escribí el tuyo. No improvises sobre la pantalla: copiá de tu mapa.
+5. **Ajustá las tipografías:** dos como máximo (una para títulos y otra para el texto), en la pestaña **Inicio**. El cuerpo nunca por debajo de **11 puntos**; los títulos, grandes.
+6. **Insertá las fotos:** parate en el panel, **Insertar → Imagen** y buscá las fotos del producto que pasaste del celular a la computadora (cable USB, correo o pendrive). Ajustá el tamaño arrastrando desde una esquina, nunca desde un borde: si no, la foto se deforma.
+7. **Cargá los datos de contacto y el código QR** en la contratapa (ver el Anexo de este cuaderno para generar el QR de tu WhatsApp).
+8. **Revisá que la letra se lea al imprimir:** en la pantalla todo se ve más grande. Andá a **Archivo → Imprimir**: ahí Word muestra la hoja completa tal como sale. Si a ese tamaño no se entiende, en papel mucho menos.
+9. **Revisá la ortografía dos veces:** apretá **F7** (revisor de Word) y después leé tu tríptico en voz alta: el oído encuentra errores que el ojo no ve. Un error impreso se reproduce en cada copia y no se puede borrar.
+10. **Quitá las guías si no querés que se impriman** (opcional): clic dentro de la tabla → **Herramientas de tabla → Diseño → Bordes → Sin borde**. Si las dejás, quedan como marcas suaves para doblar.
+11. **Generá el PDF:** **Archivo → Guardar y enviar → Crear documento PDF/XPS → Publicar**. Guardalo con un nombre claro: `triptico-mi-emprendimiento.pdf`. Ese es el archivo que se imprime.
+12. **Guardá todo:** el `.docx` editable (por si hay que corregir algo) y el `.pdf` final, en el pendrive o en la carpeta de la escuela. Si el archivo se pierde, perdés el trabajo.
 
 #### 🛠️ Manos a la obra — Paso 5
 
-1. Creá tu diseño con plantilla de tríptico.
+1. Abrí el modelo `triptico-dulce-casero.docx` y guardalo con tu nombre.
 2. Cargá los 6 paneles con tu mapa al lado.
-3. Insertá tus fotos.
+3. Insertá tus fotos del producto.
 4. Cargá contacto y QR en la contratapa.
-5. Revisá la ortografía en voz alta.
-6. Exportá el PDF y guardá una copia de respaldo.
+5. Revisá la ortografía con F7 y en voz alta.
+6. Generá el PDF y guardá el `.docx` y el `.pdf` en el pendrive.
 
-- [ ] Tengo una cuenta activa.
-- [ ] Creé el diseño con plantilla de tríptico.
+- [ ] Abrí el modelo y lo guardé con mi nombre.
 - [ ] Los 6 paneles tienen contenido.
 - [ ] Inserté mis fotos del producto.
 - [ ] La contratapa tiene WhatsApp, horarios y QR.
 - [ ] Revisé la ortografía.
-- [ ] **Exporté el PDF y guardé una copia.**
+- [ ] **Generé el PDF y guardé una copia.**
 
-> ⚠️ **Ojo con esto:** un PDF que no se exportó no se puede imprimir el día de la entrega. Si te quedás sin exportar, avisale al docente en el momento, no la clase siguiente.
+> ⚠️ **Ojo con esto:** un PDF que no se generó no se puede imprimir el día de la entrega. Si te quedás sin generarlo, avisale al docente en el momento, no la clase siguiente.
 
 ---
 
@@ -204,7 +203,7 @@ Llegó el momento de la verdad, y es incómodo a propósito: **le das tu trípti
 2. Dejalo leer **3 minutos** y no interrumpas.
 3. Pedile que responda el **test de lectura** (está en el Anexo). Si falla alguna pregunta, ese dato está mal puesto o no se ve.
 4. Anotá las respuestas tal cual, sin justificarte.
-5. **Hacé los ajustes:** suele alcanzar con mover un dato a la portada, agrandar un precio o poner el teléfono junto al QR.
+5. **Hacé los ajustes en tu archivo de Word:** suele alcanzar con mover un dato a la portada, agrandar un precio o poner el teléfono junto al QR.
 6. Después rotá: ahora vos sos el lector del tríptico de tu compañero.
 
 #### 🛠️ Manos a la obra — Paso 6
@@ -213,27 +212,27 @@ Llegó el momento de la verdad, y es incómodo a propósito: **le das tu trípti
 2. Pedile que responda el test de lectura de 5 preguntas.
 3. Anotá qué pregunta falló.
 4. Hacé al menos **1 ajuste concreto**.
-5. Volvé a exportar el PDF con la versión corregida.
+5. Volvé a generar el PDF con la versión corregida.
 
 - [ ] Un compañero leyó mi tríptico sin ayuda.
 - [ ] Tengo las respuestas del test de lectura anotadas.
 - [ ] Hice al menos 1 ajuste concreto.
-- [ ] Volví a exportar el PDF corregido.
+- [ ] Volví a generar el PDF corregido.
 
 ---
 
 ### Paso 7: Imprimí, entregá y difundí
 
 1. **Verificá el archivo:** abrilo una última vez. ¿Están los 6 paneles? ¿Están los precios? ¿Está el contacto?
-2. **Imprimí a doble faz** (las dos caras en la misma hoja) y **en tamaño A4**. Si la impresora no hace doble faz, imprimí una cara y después la otra.
-3. **Doblá en tercios** siguiendo los pliegues que ya tiene marcados Canva.
+2. **Imprimí a doble faz** (las dos caras en la misma hoja), **en tamaño A4** y con la opción **voltear por el borde corto** (si la segunda cara te sale al revés, es ese ajuste). Si la impresora no hace doble faz, imprimí una cara y después la otra.
+3. **Doblá en tercios:** usá como guía las líneas grises del modelo o marcá los pliegues con lápiz antes de doblar.
 4. **Revisá el resultado impreso:** ¿se lee? ¿los colores salieron como esperabas? ¿el texto se partió justo en el doblez?
 5. **Entregá** un ejemplar a tu docente y al menos uno a un cliente potencial (un vecino, un comercio, alguien que pueda encargarte).
 6. **Compartí la versión digital:** mandá el PDF por WhatsApp a quien te lo pida o publicalo en tu estado/Instagram. El tríptico impreso y el digital son el mismo trabajo.
 
 #### Checklist final antes de entregar
 
-- [ ] El PDF final está exportado y con mi nombre en el archivo.
+- [ ] El PDF final está generado y con mi nombre en el archivo.
 - [ ] Están los 6 paneles con contenido.
 - [ ] Están el nombre del emprendimiento, los precios y el contacto.
 - [ ] El código QR funciona (probé escanearlo).
@@ -249,19 +248,19 @@ Si te perdés con el orden de los paneles, hacé esto siempre: **agarrá una hoj
 
 Cuando el tríptico está cerrado se ve **un solo panel: la portada**. Cuando lo abrís aparecen los **tres paneles internos**, que se leen de izquierda a derecha. Cuando lo das vuelta aparece la **contratapa** (con los contactos) y, al lado, la **solapa**, que es la primera que se ve al entreabrir.
 
-| | Cara externa (cerrado) | Cara interna (abierto) |
+| | Cara externa (la "de atrás") | Cara interna (la que se lee al abrirlo) |
 | --- | --- | --- |
-| **Izquierda** | Contratapa o solapa (según la plantilla) | Interior 1 — quién está detrás |
-| **Centro** | **Portada** (lo primero que se ve) | Interior 2 — la carta |
-| **Derecha** | La otra cara exterior | Interior 3 — cómo encargar |
+| **Izquierda** | Solapa | Interior 1 — quién está detrás |
+| **Centro** | Contratapa (contactos; es el "fondo" cuando está cerrado) | Interior 2 — la carta |
+| **Derecha** | **Portada** (lo primero que se ve) | Interior 3 — cómo encargar |
 
-> **Nota:** cada plantilla ordena los paneles a su manera. No la muevas: **cargá tu contenido en el panel que corresponde por función** (portada, carta, contacto) y el orden de impresión se resuelve solo. Si tenés dudas, doblá una hoja y comprobalo con tus manos.
+> **Nota:** el modelo de Word (`triptico-dulce-casero.docx`) ya trae este orden resuelto: página 1 = cara externa, página 2 = cara interna, y cada panel es una celda de la tabla. Vos solo cargás el contenido en la celda que corresponde por función. Si tenés dudas, doblá una hoja y comprobalo con tus manos.
 
 ---
 
 ## 4. Plantilla: Mapa de los 6 paneles
 
-Completá esta plantilla **antes** de armar el tríptico en el celular. Usá el número que le pusiste a cada panel cuando doblaste tu hoja.
+Completá esta plantilla **antes** de armar el tríptico en Word. Usá el número que le pusiste a cada panel cuando doblaste tu hoja.
 
 | Panel | Función | Título | Texto (pocas palabras) | Imagen | Qué tiene que entender el lector |
 | --- | --- | --- | --- | --- | --- |
@@ -307,8 +306,8 @@ Elegí al menos 3 y anotá las respuestas **con las palabras de la persona**, no
 
 1. Abrí WhatsApp → **Ajustes** → tocá tu foto de perfil.
 2. Buscá la opción **"Código QR"**: ahí está tu QR personal.
-3. Sacale una captura de pantalla.
-4. Insertá esa imagen en la contratapa del tríptico, al lado del número de teléfono.
+3. Sacale una captura de pantalla y pasala a la computadora (cable USB, correo o pendrive).
+4. Insertala en la contratapa del tríptico (**Insertar → Imagen**), al lado del número de teléfono.
 5. **Probá que funcione:** que un compañero lo escanee con su celular antes de imprimir.
 
 ### 5.3 Test de lectura (lo responde un compañero, no vos)

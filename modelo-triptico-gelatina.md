@@ -1,6 +1,6 @@
 # Modelo de Tríptico Resuelto: "Dulce Casero"
 
-> **Documento de referencia.** Este tríptico está resuelto como ejemplo completo del producto final del taller. El docente lo muestra doblado en el Encuentro 1 y lo usa como modelo de cada paso. **Todos los datos son ficticios**: el nombre, los precios, el teléfono y las redes son de ejemplo y deben reemplazarse por los de un emprendimiento real o por los que el grupo invente. Los paneles respetan las reglas del cuaderno del alumno: una idea por panel, cuerpo de texto legible y máximo de 50 palabras en los paneles internos.
+> **Documento de referencia.** Este tríptico está resuelto como ejemplo completo del producto final del taller. El docente lo muestra doblado en el Encuentro 1 y lo usa como modelo de cada paso. La versión **editable en Word 2010** está en `triptico-dulce-casero.docx` (hoja A4 apaisada, dos caras, cada cara dividida en tres paneles). **Todos los datos son ficticios**: el nombre, los precios, el teléfono y las redes son de ejemplo y deben reemplazarse por los de un emprendimiento real o por los que el grupo invente. Los paneles respetan las reglas del cuaderno del alumno: una idea por panel, cuerpo de texto legible y máximo de 50 palabras en los paneles internos.
 
 ---
 
@@ -152,7 +152,7 @@ Objetivo: *generar pedidos*. Público: *vecinos del barrio que compran postres c
 4. **Cada panel interno tiene una única idea.** Si un panel tuviera dos ideas, se convierte en dos paneles.
 5. **El tríptico se entiende sin explicación.** Un lector que lo agarra solo puede responder: qué se vende, cuánto cuesta, cómo se encarga y por qué elegirlo.
 
-> **Sugerencia de uso:** en el Encuentro 1, mostrar este modelo desplegado y doblado, y pedir al grupo que identifique en qué panel está cada dato obligatorio. En el Encuentro 2, usarlo como referencia del nivel de detalle esperado en el mapa de 6 paneles. En el Encuentro 4, usarlo como ejemplo al aplicar el test de lectura entre pares.
+> **Sugerencia de uso:** en el Encuentro 1, mostrar este modelo desplegado y doblado, y pedir al grupo que identifique en qué panel está cada dato obligatorio. En el Encuentro 2, usarlo como referencia del nivel de detalle esperado en el mapa de 6 paneles. En el Encuentro 3, usar `triptico-dulce-casero.docx` como punto de partida del armado en Word: cada estudiante guarda una copia con su nombre y reemplaza el contenido panel por panel. En el Encuentro 4, usarlo como ejemplo al aplicar el test de lectura entre pares.
 
 ---
 

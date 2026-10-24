@@ -10,7 +10,7 @@
 | **2. Estructura del tríptico** | No se distinguen los 6 paneles. El contenido está amontonado sin orden de lectura. | Los 6 paneles están usados, pero el contenido aparece en el panel equivocado (precios en la portada, contacto escondido) y falta alguna función. | Los 6 paneles cumplen su función: portada que atrae, paneles internos ordenados (quién está detrás, la carta, cómo encargar) y contratapa con todos los contactos. | La estructura es impecable: el orden de lectura conduce naturalmente del interés al pedido, la portada y la contratapa se refuerzan, y cada panel tiene una única idea. |
 | **3. Diseño y legibilidad** | Texto por debajo de 11 puntos, sin márgenes, texto sobre el pliegue, más de tres tipografías o colores que no permiten leer. | Hay texto legible pero con excesos: demasiadas palabras por panel, tipografías mezcladas, poco contraste o elementos importantes sobre el doblez. | Cumple las reglas: máximo dos tipografías, cuerpo de 11 puntos o más, márgenes de 1 cm, zona de pliegue libre, alto contraste y una idea por panel. | El diseño es limpio y profesional: jerarquía evidente, fotos propias grandes y pertinentes, espacios en blanco usados con criterio y todo legible en la copia impresa. |
 | **4. Autonomía del mensaje (test de lectura)** | El lector no puede responder qué se vende ni cuánto cuesta. El tríptico no funciona solo. | El lector responde una o dos preguntas del test y falla en las restantes. Información clave ausente o mal ubicada. | El lector responde las 5 preguntas del test: qué se vende, cuánto cuesta, cómo encarga, por qué elegirlo y qué vio primero. | El lector responde todo con seguridad y además el tríptico le genera intención concreta de compra. Un segundo lector obtiene los mismos resultados. |
-| **5. Producción y difusión** | No exportó el archivo o no hay tríptico. No entregó nada. | Tiene el diseño en la app pero sin exportar, o el PDF está incompleto y no se imprimió. | Exportó el PDF, lo imprimió a doble faz, lo dobló en tercios y entregó un ejemplar. | Además de imprimir y entregar, verificó el resultado impreso, corrigió lo que falló en papel y difundió la versión digital a clientes potenciales. |
+| **5. Producción y difusión** | No generó el archivo o no hay tríptico. No entregó nada. | Tiene el diseño en Word pero sin generar el PDF, o el PDF está incompleto y no se imprimió. | Generó el PDF desde Word, lo imprimió a doble faz, lo dobló en tercios y entregó un ejemplar. | Además de imprimir y entregar, verificó el resultado impreso, corrigió lo que falló en papel y difundió la versión digital a clientes potenciales. |
 
 ### Pesos sugeridos
 
@@ -45,7 +45,7 @@ Marcar los requisitos mínimos que cumple el tríptico del alumno/a o grupo:
 - [ ] Usa **fotos propias** del producto.
 - [ ] Cumple las **reglas de diseño**: máximo dos tipografías, cuerpo de 11 puntos o más, márgenes de 1 cm, zona de pliegue libre.
 - [ ] El **mapa de los 6 paneles** (plantilla del cuaderno) está completado.
-- [ ] El **PDF está exportado** y el tríptico **impreso, doblado y entregado**.
+- [ ] El **PDF está generado desde Word** y el tríptico **impreso, doblado y entregado**.
 - [ ] El **test de lectura** fue respondido por al menos un lector.
 
 ---
