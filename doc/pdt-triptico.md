@@ -29,3 +29,11 @@ El contenido sigue siendo un emprendimiento para vender gelatina casera.
 Se trata de crear gelatina desde la materia prima, no solo preparar el polvo que se compra en la tienda.
 Ademas debe incluir un poco de historia sobre la historia de la gelatina y sus variaciones en los procesos de creacion.
 deme un ejemplo terminado del triptico en formato pdf realizado en una hoja Formto A4 apaisado
+
+---
+
+Basado en el documento word ejemplos para otros productos:
+- Mermelada 
+- Gelatina
+- Gomitas
+- Pan, son 2 distintos raalizados por el mismo equipo (garbanzos y almendras)
